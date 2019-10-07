@@ -1,0 +1,55 @@
+{
+	"tileMap":[
+		[
+			{
+				"coordinate":{
+					"x":0,
+					"y":0,
+					"mapId":"Start Level"
+				},
+				"envType":"DIRT",
+				"tileType":"OPEN"
+			},
+			{
+				"coordinate":{
+					"x":1,
+					"y":0,
+					"mapId":"Start Level"
+				},
+				"envType":"ROCK",
+				"tileType":"OPEN"
+			}
+		],
+		[
+			{
+				"coordinate":{
+					"x":0,
+					"y":1,
+					"mapId":"Start Level"
+				},
+				"envType":"ROCK",
+				"tileType":"WALL"
+			},
+			{
+				"coordinate":{
+					"x":1,
+					"y":1,
+					"mapId":"Start Level"
+				},
+				"envType":"ROCK",
+				"tileType":"OPEN"
+			}
+		]
+	],
+	"id":"Start Level",
+	"entryPoint":{
+		"x":0,
+		"y":0,
+		"mapId":"Start Level"
+	},
+	"exitPoint":{
+		"x":1,
+		"y":1,
+		"mapId":"Second Level"
+	}
+}
